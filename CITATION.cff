@@ -1,0 +1,38 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Self-augmenting RRL
+message: >-
+  This repository contains experimental code and data for the paper
+  Self-augmenting Technical Indicator with Reinforcement Learning
+type: software
+authors:
+  - given-names: Tomasz
+    family-names: Witkowski
+    email: tomasz.witkowski1@edu.uekat.pl
+    affiliation: University of Economics in Katowice
+    orcid: 'https://orcid.org/0000-0001-9648-9098'
+repository-code: >-
+  https://github.com/tomWitkowski/self-augmenting-RRL
+abstract: >+
+  Skilled human traders often outperform rule-based algorithmic systems 
+  by intuitively recognizing path-dependent patterns in technical indicators - 
+  a cognitive advantage that current algorithms fail to capture. 
+  We introduce a reinforcement learning framework that extracts sequential information solely from technical indicator histories,
+  specifically targeting the additional information that static rules might ignore. 
+  Applied to MACD signals across four major currency pairs using rigorous out-of-sample testing with 20 random seeds per asset,
+  our approach demonstrates non-inferior performance with the best models 
+  consistently outperforming traditional rule-based strategies across all tested assets.
+  Statistical analysis using two-sided Wilcoxon tests demonstrates significant Sharpe ratio improvements for GBP/USD
+  (mean improvement from -0.0007 to 0.0019, p $\approx$ 0) and USD/JPY (from -0.0041 to 0.0056, p $\approx$ 0), 
+  while EUR/USD and USD/CHF show non-significant differences before addressing overfitting concerns. 
+  This research bridges human intuitive decision-making and algorithmic trading, 
+  demonstrating that historical trajectories in technical indicators contain exploitable information 
+  that enhances trading performance beyond static rule-based approaches. 
+keywords:
+  - recurrent reinforcement learning
+  - offline reinforcement learning
+  - technical indicators
+  - sharpe ratio
+license: MIT

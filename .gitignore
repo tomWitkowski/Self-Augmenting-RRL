@@ -1,0 +1,14 @@
+__pycache__/
+__pycache__
+*.py[cod]
+*checkp*
+
+venv/
+.env/
+
+.arch/
+data/*/*.csv
+data/*/*.npy
+weights/*.npy
+results/*.csv
+*.csv
